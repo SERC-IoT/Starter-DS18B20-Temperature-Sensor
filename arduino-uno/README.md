@@ -8,6 +8,9 @@ Setup instructions and starter code for using the DS18B20 temperature sensor and
 
 | File/Folder | Description |
 |--- | --- |
+| arduino/ | Arduino projects folder |
+| arduino/ds18b20-simple/ds18b20-simple.ino | Simpler arduino sketch using DallasTemperature library. |
+| arduino/ds18b20-temperature-sensor/ds18b20-temperature-sensor.ino | Arduino sketch that only uses OneWire library. |
 | mkr-wifi-1010-setup.md | Setup instructions for using an Arduino MKR WiFi 1010 dev board. |
 |  |  |
 
