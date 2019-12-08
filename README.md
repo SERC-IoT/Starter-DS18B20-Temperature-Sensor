@@ -14,6 +14,8 @@ Setup instructions and starter code for different development boards
 
 | Board | Folder |
 | --- | --- |
+| Arduino Uno | arduino-uno/ |
+| Arduino MKR WiFi 1010 | For MKR WiFi 1010 follow instructions for Arduino Uno (arduino-uno/) |
 |  |  |
 
 <br>

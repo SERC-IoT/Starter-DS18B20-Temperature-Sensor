@@ -8,9 +8,14 @@ Setup instructions and starter code for using the DS18B20 temperature sensor and
 
 | File/Folder | Description |
 |--- | --- |
+| mkr-wifi-1010-setup.md | Setup instructions for using an Arduino MKR WiFi 1010 dev board. |
 |  |  |
 
 <br>
+
+## Setup
+
+Setup instructions for an Arduino Uno board is below. For MKR WiFi 1010 based setup instructions see [mkr-wifi-1010-setup.md](mkr-wifi-1010-setup.md).
 
 ## Circuit Diagram
 Wire the components as shown in the diagram. The data line needs to be pulled high using a 4k7 ohm resistor.
