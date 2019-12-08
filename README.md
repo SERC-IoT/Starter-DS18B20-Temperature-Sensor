@@ -22,7 +22,7 @@ Setup instructions and starter code for different development boards
 
 | File/Folder | Description |
 |--- | --- |
-|  |  |
+| docs/DS18B20.pdf | Data sheet for sensor |
 
 <br>
 
