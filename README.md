@@ -37,3 +37,5 @@ Setup instructions and starter code for different development boards
 <br>
 
 ## References
+
+* https://www.maximintegrated.com/en/app-notes/index.mvp/id/4377
