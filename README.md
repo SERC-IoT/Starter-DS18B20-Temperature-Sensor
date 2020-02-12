@@ -14,10 +14,10 @@ Setup instructions and starter code for different development boards
 
 | Board | Folder |
 | --- | --- |
-| Arduino Uno | arduino-uno/ |
-| Arduino MKR WiFi 1010 | For MKR WiFi 1010 follow instructions for Arduino Uno (arduino-uno/) |
-| ESP32 | For ESP32 boards, follow instructions for ESP8266 (esp8266/) |
-| ESP8266 | esp8266/ |
+| Arduino Uno | [arduino-uno/](arduino-uno/) |
+| Arduino MKR WiFi 1010 | For MKR WiFi 1010 follow instructions for Arduino Uno [arduino-uno/](arduino-uno/) |
+| ESP32 | For ESP32 boards, follow instructions for ESP8266 [esp8266/](esp8266/) |
+| ESP8266 | [esp8266/](esp8266/) |
 |  |  |
 
 <br>
