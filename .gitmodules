@@ -1,3 +1,6 @@
 [submodule "additional-libraries/Arduino-Temperature-Control-Library"]
 	path = additional-libraries/Arduino-Temperature-Control-Library
 	url = https://github.com/milesburton/Arduino-Temperature-Control-Library
+[submodule "additional-libraries/OneWire"]
+	path = additional-libraries/OneWire
+	url = https://github.com/PaulStoffregen/OneWire
