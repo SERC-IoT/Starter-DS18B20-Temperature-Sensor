@@ -62,7 +62,7 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 
 The sketch will work with many different types and chipset of board. To use an ESP8266 board with Arduino, you will need to install the relevant board configuration files. Follow the instructions here: https://arduino-esp8266.readthedocs.io/en/latest/installing.html
 
-The arduino sketch requires the OneWire library. It is included in the libraries folder.
+The arduino sketches require the OneWire and DallasTemperature libraries. They are included in the root additional-libraries folder. Afternatively, they can be downloaded through the Arduino libraries manager or from https://github.com/PaulStoffregen/OneWire and https://github.com/milesburton/Arduino-Temperature-Control-Library.
 
 ## MicroPython
 
@@ -74,3 +74,5 @@ MicroPython already has drivers for OneWire and DS18X20 devices baked in.
 * http://docs.micropython.org/en/v1.8.2/esp8266/esp8266/tutorial/onewire.html
 * https://boneskull.com/micropython-on-esp32-part-1/
 * http://www.esp32learning.com/code/esp32-and-ds18b20-temperature-sensor-example.php
+* https://playground.arduino.cc/Learning/OneWire/
+* https://www.milesburton.com/Dallas_Temperature_Control_Library

@@ -54,9 +54,11 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 
 The sketch will work with many different types and chipset of board. To use an Arduino Uno, make sure to select the correct board in Boards Manager.
 
-The arduino sketch requires the OneWire and DallasTemperature libraries. They are included in the libraries folder.
+The arduino sketches require the OneWire and DallasTemperature libraries. They are included in the root additional-libraries folder. Afternatively, they can be downloaded through the Arduino libraries manager or from https://github.com/PaulStoffregen/OneWire and https://github.com/milesburton/Arduino-Temperature-Control-Library.
 
 
 ## References
 
 * https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806
+* https://playground.arduino.cc/Learning/OneWire/
+* https://www.milesburton.com/Dallas_Temperature_Control_Library
