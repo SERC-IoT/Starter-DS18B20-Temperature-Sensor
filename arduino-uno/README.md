@@ -46,7 +46,7 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 | GND | GND | GND |
 | D7 | digital 7 | DQ |
 
-<!-- todo: pin diagram for uno ![pin diagram](assets/wemos-d1-mini-pinout.png) -->
+![pin diagram](assets/Pinout-UNOrev3_latest.png)
 
 <br>
 

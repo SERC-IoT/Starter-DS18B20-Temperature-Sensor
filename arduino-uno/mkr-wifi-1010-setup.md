@@ -29,7 +29,7 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 | GND | GND | GND |
 | 7 | digital 7 | DQ |
 
-<!-- ![pin diagram](assets/rp2_pinout.png) TODO: pin out for mkr -->
+![pin diagram](assets/Pinout-MKRwifi1010_latest.png)
 
 <br>
 
