@@ -29,7 +29,7 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 |  | GND | GND |
 |  | GPIO 0 | DQ |
 
-<!-- ![pin diagram](assets/rp2_pinout.png) TODO: pin out for esp32 -->
+![pin diagram](assets/Lolin32_pinout03.png)
 
 <br>
 
