@@ -8,12 +8,12 @@ Code for getting started with a DS18B20 temperature sensor using an ESP8266 or E
 
 | File/Folder | Description |
 |--- | --- |
-| arduino/ | Arduino projects folder |
-| arduino/ds18b20-simple/ds18b20-simple.ino | Simpler arduino sketch using DallasTemperature library. |
-| arduino/ds18b20-temperature-sensor/ds18b20-temperature-sensor.ino | Arduino sketch that only uses OneWire library. |
-| micropython/ | MicroPython project folder |
-| micropython/temp_readings.py | MicroPython script that reads the temperature value from the sensor and prints it to the REPL. |
-| esp32-setup.md | Setup instructions for using an ESP32 dev board. |
+| [arduino/](arduino/) | Arduino projects folder |
+| [arduino/ds18b20-simple/ds18b20-simple.ino](arduino/ds18b20-simple/ds18b20-simple.ino) | Simpler arduino sketch using DallasTemperature library. |
+| [arduino/ds18b20-temperature-sensor/ds18b20-temperature-sensor.ino](arduino/ds18b20-temperature-sensor/ds18b20-temperature-sensor.ino) | Arduino sketch that only uses OneWire library. |
+| [micropython/](micropython/) | MicroPython project folder |
+| [micropython/temp_readings.py](micropython/temp_readings.py) | MicroPython script that reads the temperature value from the sensor and prints it to the REPL. |
+| [esp32-setup.md](esp32-setup.md) | Setup instructions for using an ESP32 dev board. |
 |  |  |
 
 <br>
