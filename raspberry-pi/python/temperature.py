@@ -4,6 +4,9 @@ from w1thermsensor import W1ThermSensor
 
 sensor = W1ThermSensor()
 
+print("** DS18B20 Temperature Sensor (CTRL+c to exit) **")
+print("")
+
 try:
     while True:
         # get sensor temperature and store value in variable 'temperature'

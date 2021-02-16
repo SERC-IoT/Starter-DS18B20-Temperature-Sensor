@@ -36,11 +36,32 @@ jobs:
           path: pi-stubs
 
       # install dependancies
-      - name: Install dependancies
+      - name: Install python dependancies
         run: |
           python -m pip install --upgrade pip
           pip install pylint pycodestyle
-          if [ -f raspberry-pi/python/requirements.txt ]; then pip install -r raspberry-pi/python/requirements.txt; fi
+        # if [ -f raspberry-pi/python/requirements.txt ]; then pip install -r raspberry-pi/python/requirements.txt; fi
+
+      # - name: config 1-wire and dummy device
+      #   # run: sudo modprobe wire
+      #   run: |
+      #     ls -al /sys/bus
+      #     mkdir -p $(pwd)/raspberry-pi/python/devices/28-020e924526de
+      #     echo "5f 01 55 05 7f 7e 81 66 b7 : crc=b7 YES" >> $(pwd)/raspberry-pi/python/devices/28-020e924526de/w1_slave
+      #     echo "5f 01 55 05 7f 7e 81 66 b7 t=21937" >> $(pwd)/raspberry-pi/python/devices/28-020e924526de/w1_slave
+
+      - name: Create stub for w1thermsensor
+        run: |
+          echo "from random import randint" >> pi-stubs/stubs/w1thermsensor.py
+          echo "" >> pi-stubs/stubs/w1thermsensor.py
+          echo "class W1ThermSensor:" >> pi-stubs/stubs/w1thermsensor.py
+          echo "  def __init__(self):" >> pi-stubs/stubs/w1thermsensor.py
+          echo "    pass" >> pi-stubs/stubs/w1thermsensor.py
+          echo "" >> pi-stubs/stubs/w1thermsensor.py
+          echo "  def get_temperature(self):" >> pi-stubs/stubs/w1thermsensor.py
+          echo "    return randint(50, 300)/10" >> pi-stubs/stubs/w1thermsensor.py
+          echo "" >> pi-stubs/stubs/w1thermsensor.py
+          cat pi-stubs/stubs/w1thermsensor.py
 
       # configure python paths
       - name: Config Python paths
@@ -66,11 +87,10 @@ jobs:
       # run python script
       - name: run python scripts
         continue-on-error: false
-        # TODO: add script paths
-        run: |
-          timeout 10 python raspberry-pi/python/temperature.py || ( [[ $? -eq 124 ]] && exit 0 )
-        env:
-          W1THERMSENSOR_NO_KERNEL_MODULE: 1
+        run: timeout 10 python raspberry-pi/python/temperature.py || ( [[ $? -eq 124 ]] && exit 0 )
+        # -c 'print("override devices dir"); from pathlib import Path; from w1thermsensor import W1ThermSensor; W1ThermSensor.BASE_DIRECTORY = Path("devices"); exec(open("temperature.py").read())' || ( [[ $? -eq 124 ]] && exit 0 )
+        # env:
+        #   W1THERMSENSOR_NO_KERNEL_MODULE: 1
 
     outputs:
       lint-score: ${{ steps.lintparsing.outputs.lintscore }}
