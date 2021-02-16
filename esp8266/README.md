@@ -1,5 +1,7 @@
 # ESP8266 and DS18B20 Temperature Sensor
 
+![MicroPython Checks](../../../workflows/MicroPython%20Checks/badge.svg) ![Pylint score](../../../blob/badges/.github/badges/micropythonpylint.svg)
+
 Code for getting started with a DS18B20 temperature sensor using an ESP8266 or ESP32 development board.
 
 <br>
