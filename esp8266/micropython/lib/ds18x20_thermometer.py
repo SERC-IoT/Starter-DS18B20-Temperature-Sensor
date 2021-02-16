@@ -1,3 +1,4 @@
+'''Module provides interface for using DS18x20 thermometer'''
 import time
 
 from ds18x20 import DS18X20
@@ -50,19 +51,19 @@ class TemperatureSensor:
         #     if fahrenheit:
         #         temp = self.c_to_f(temp)
         #     return temp
-        
+
         temps = []
         for addr in self.addrs:
             temp = self.ds.read_temp(addr)
             if fahrenheit:
                 temp = self.c_to_f(temp)
             temps.append(temp)
-        
+
         if multiple:
             return temps
         else:
             return temps[0]
-        
+
     @staticmethod
     def c_to_f(c):
         """
