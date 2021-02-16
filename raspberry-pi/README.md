@@ -1,5 +1,7 @@
 # DS18B20 Temperature Sensor
 
+![RPi Python Checks](../../../workflows/RPi%20Python%20Checks/badge.svg) ![Python code quality](../../../blob/badges/.github/badges/rpipycodequality.svg)
+
 Code for getting started with a DS18B20 temperature sensor and a Raspberry Pi.
 
 <br>
