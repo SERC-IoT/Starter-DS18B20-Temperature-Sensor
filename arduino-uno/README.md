@@ -1,5 +1,7 @@
 # Arduino Uno and DS18B20 Temperature Sensor
 
+![Arduino Sketch Checks](../../../workflows/Arduino%20Sketch%20Checks/badge.svg)
+
 Setup instructions and starter code for using the DS18B20 temperature sensor and an Arduino development board.
 
 <br>
