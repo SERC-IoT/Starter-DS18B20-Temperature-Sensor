@@ -56,6 +56,8 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 
 ![pin diagram](assets/wemos-d1-mini-pinout.png)
 
+Further details and other board pin out diagrams can be found here: https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
+
 <br>
 
 ## Arduino
@@ -69,6 +71,8 @@ The arduino sketches require the OneWire and DallasTemperature libraries. They a
 MicroPython already has drivers for OneWire and DS18X20 devices baked in.
 
 ## References
+
+- https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
 
 * https://docs.micropython.org/en/latest/esp32/quickref.html#onewire-driver
 * http://docs.micropython.org/en/v1.8.2/esp8266/esp8266/tutorial/onewire.html
