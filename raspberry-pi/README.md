@@ -45,6 +45,13 @@ Wire the components as shown in the diagram.
 
 ## Configure Raspberry Pi
 
+The Raspberry Pi needs to have the 1-wire interface enabled and dependancy libraries need to be installed. Either follow the instructions below or run the config.sh script to automatically setup the Raspberry Pi.
+
+```bash
+chmod +x config.sh
+./config.sh
+```
+
 ### Install Python library
 The python code uses a python library called w1thermsensor. To install this library type the following in a terminal.
 
