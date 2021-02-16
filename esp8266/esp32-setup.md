@@ -13,7 +13,6 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 * connecting wires
 * esp32 development board
 
-
 <br />
 
 ![breadboard diagram](assets/esp32-ds18b20-temp-sensor-circuit-diagram_bb.png)
@@ -22,12 +21,12 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-|  |  |  |
-|  | +3.3V | Vdd |
-|  | GND | GND |
-|  | GPIO 0 | DQ |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+|  | +3.3V |  | Vdd |
+|  | GND |  | GND |
+|  | GPIO 0 |  | DQ |
+|  |  |  |  |
 
 ![pin diagram](assets/Lolin32_pinout03.png)
 

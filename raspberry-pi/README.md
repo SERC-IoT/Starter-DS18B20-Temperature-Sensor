@@ -24,7 +24,6 @@ Wire the components as shown in the diagram.
 * connecting wires
 * raspberry pi
 
-
 <br />
 
 ![breadboard diagram](assets/ds18b20-temp-sensor-circuit-diagram_bb.png)
@@ -33,12 +32,12 @@ Wire the components as shown in the diagram.
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-|  |  |  |
-| 1 | +3.3V | Vdd |
-| 6 | GND | GND |
-| 7 | GPIO 4 | DQ |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+| 1 | +3.3V |  | Vdd |
+| 6 | GND |  | GND |
+| 7 | GPIO 4 |  | DQ |
+|  |  |  |  |
 
 ![pin diagram](assets/rp2_pinout.png)
 

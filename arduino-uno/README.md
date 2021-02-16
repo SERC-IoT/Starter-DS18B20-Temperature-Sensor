@@ -33,7 +33,6 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 * connecting wires
 * arduino uno development board
 
-
 <br />
 
 ![breadboard diagram](assets/uno-ds18b20-temp-sensor-circuit-diagram_bb.png)
@@ -42,11 +41,12 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-| 5V | +5V | Vdd |
-| GND | GND | GND |
-| D7 | digital 7 | DQ |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+| 5V | +5V |  | Vdd |
+| GND | GND |  | GND |
+| D7 | digital 7 |  | DQ |
+|  |  |  |  |
 
 ![pin diagram](assets/Pinout-UNOrev3_latest.png)
 

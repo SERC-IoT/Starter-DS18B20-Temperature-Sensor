@@ -13,7 +13,6 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 * connecting wires
 * MKR WiFi 1010 development board
 
-
 <br />
 
 ![breadboard diagram](assets/mkr-ds18b20-temp-sensor-circuit-diagram_bb.png)
@@ -22,12 +21,12 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-|  |  |  |
-| VCC | +3.3V | Vdd |
-| GND | GND | GND |
-| 7 | digital 7 | DQ |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+| VCC | +3.3V |  | Vdd |
+| GND | GND |  | GND |
+| 7 | digital 7 |  | DQ |
+|  |  |  |  |
 
 ![pin diagram](assets/Pinout-MKRwifi1010_latest.png)
 

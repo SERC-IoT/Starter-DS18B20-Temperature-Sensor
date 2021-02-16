@@ -39,7 +39,6 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 * connecting wires
 * esp8266 development board (e.g. Wemos D1 mini)
 
-
 <br />
 
 ![breadboard diagram](assets/esp8266-ds18b20-temp-sensor-circuit-diagram_bb.png)
@@ -48,11 +47,12 @@ Wire the components as shown in the diagram. The data line needs to be pulled hi
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-| 3V3 | +3.3V | Vdd |
-| G | GND | GND |
-| D3 | GPIO 0 | DQ |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+| 3V3 | +3.3V |  | Vdd |
+| G | GND |  | GND |
+| D3 | GPIO 0 |  | DQ |
+|  |  |  |  |
 
 ![pin diagram](assets/wemos-d1-mini-pinout.png)
 
