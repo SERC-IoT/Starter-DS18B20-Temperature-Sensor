@@ -8,7 +8,10 @@ Code for getting started with a DS18B20 temperature sensor and a Raspberry Pi.
 
 | File/Folder | Description |
 |--- | --- |
-| python/temperature.py | python script that reads the temperature value from the sensor and prints it to the console. |
+| [python/](python/) | folder for python scripts. |
+| [python/requirements.txt](python/requirements.txt) | Requirements file for python dependancy libraries. |
+| [python/temperature.py](python/temperature.py) | python script that reads the temperature value from the sensor and prints it to the console. |
+| [config.sh](config.sh) | Bash script to automatically configure and setup the Raspberry Pi for using the DS18B20 sensor. |
 |  |  |
 
 <br>
