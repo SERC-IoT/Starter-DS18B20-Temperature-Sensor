@@ -40,4 +40,4 @@ The arduino sketch requires the OneWire library. It is included in the libraries
 
 ## MicroPython
 
-MicroPython already has drivers for OneWire and DS18X20 devices baked in.
+MicroPython already has drivers for OneWire and DS18X20 devices baked in. An additional help module is included in the [micropython/lib](micropython/lib) folder.

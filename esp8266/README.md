@@ -14,6 +14,7 @@ Code for getting started with a DS18B20 temperature sensor using an ESP8266 or E
 | [micropython/](micropython/) | MicroPython project folder |
 | [micropython/temp_readings.py](micropython/temp_readings.py) | MicroPython script that reads the temperature value from the sensor and prints it to the REPL. |
 | [esp32-setup.md](esp32-setup.md) | Setup instructions for using an ESP32 dev board. |
+| [esp8266-micropython-setup.ps1](esp8266-micropython-setup.ps1) | PowerShell script to install MicroPython on ESP8266 device and upload scripts. |
 |  |  |
 
 <br>
@@ -68,7 +69,21 @@ The arduino sketches require the OneWire and DallasTemperature libraries. They a
 
 ## MicroPython
 
-MicroPython already has drivers for OneWire and DS18X20 devices baked in.
+MicroPython already has drivers for OneWire and DS18X20 devices baked in. An additional help module is included in the [micropython/lib](micropython/lib) folder.
+
+### Uploading Files
+
+Test files can be uploaded using [ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy).
+
+```pwsh
+PS> ampy --port <COM port of device> --baud 115200 put micropython/temp_readings.py
+```
+
+A PowerShell script ([esp8266-micropython-setup.ps1](esp8266-micropython-setup.ps1)) is also included to automatically setup MicroPython on an ESP8266 device.
+
+```pwsh
+PS> .\esp8266-micropython-setup.ps1
+```
 
 ## References
 
