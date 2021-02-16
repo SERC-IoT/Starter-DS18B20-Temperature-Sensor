@@ -19,13 +19,16 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        root-path: ["arduino-uno", "esp8266"]
     steps:
       - uses: actions/checkout@v2
       - name: Run arduino linter
         uses: arduino/arduino-lint-action@v1
         with:
           project-type: sketch
-          path: arduino-uno/arduino/
+          path: ${{ matrix.root-path }}/arduino/
           recursive: true
           verbose: true
   
