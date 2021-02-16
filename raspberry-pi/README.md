@@ -52,6 +52,12 @@ The python code uses a python library called w1thermsensor. To install this libr
 sudo pip3 install w1thermsensor
 ```
 
+A requirements.txt file is also provided and can be used instead.
+```bash
+cd ./python
+sudo pip install -r requirements.txt
+```
+
 ### Enable 1-wire communication
 
 Open the raspi-config tool, found in preferences, or type the following in a terminal.
