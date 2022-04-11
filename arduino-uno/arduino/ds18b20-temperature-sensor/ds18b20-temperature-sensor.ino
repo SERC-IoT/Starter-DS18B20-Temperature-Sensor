@@ -6,7 +6,9 @@ OneWire ds(7); // on pin D7 (a 4.7K resistor is necessary)
  
 void setup(void)
 {
+  // initialize serial communication and wait for port to open:
   Serial.begin(9600);
+  while (!Serial);
 }
  
 void loop(void)

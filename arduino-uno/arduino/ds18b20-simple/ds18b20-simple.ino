@@ -18,8 +18,9 @@ float celcius=0;
  */
 void setup(void)
 {
-  // start serial port
+  // start serial and wait for port to open
   Serial.begin(9600);
+  while (!Serial);
   Serial.println("Dallas Temperature IC Control Library Demo - Simple Version");
 
   // Start up the library
